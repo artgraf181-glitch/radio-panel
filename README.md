@@ -31,7 +31,7 @@ Panel radia internetowego dla Home Assistant z katalogiem Radio Browser, globaln
 2. Dodaj adres:
 
    ```text
-   https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+   https://artgraf181-glitch/radio-panel
    ```
 
 3. Wybierz typ **Integracja**.
@@ -86,7 +86,7 @@ Panel łączy się z API Radio Browser oraz z serwerami wybranych stacji. Ulubio
 
 ## Zgłaszanie błędów
 
-Zgłoszenia: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/issues
+Zgłoszenia: https://artgraf181-glitch/radio-panel/issues
 
 Przed zgłoszeniem podaj wersję Radio Panel, wersję Home Assistanta, urządzenie oraz nazwę stacji, na której problem występuje.
 
