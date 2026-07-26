@@ -1,7 +1,7 @@
 """Constants for Radio Panel."""
 
 DOMAIN = "radio_panel"
-VERSION = "1.7.13"
+VERSION = "1.7.14"
 STORAGE_KEY = DOMAIN
 STORAGE_VERSION = 1
 PANEL_URL = "radio-panel"
