@@ -1,0 +1,20 @@
+name: Propozycja funkcji
+description: Zaproponuj usprawnienie Radio Panel
+title: "[Funkcja] "
+labels: [enhancement]
+
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Potrzeba
+      description: Jaki problem ma rozwiązać proponowana zmiana?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proponowane rozwiązanie
+    validations:
+      required: true
