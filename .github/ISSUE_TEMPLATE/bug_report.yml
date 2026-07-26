@@ -1,0 +1,55 @@
+name: Zgłoszenie błędu
+description: Zgłoś powtarzalny problem z Radio Panel
+title: "[Błąd] "
+labels: [bug]
+
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Wersja Radio Panel
+      placeholder: 1.7.13
+    validations:
+      required: true
+
+  - type: input
+    id: ha_version
+    attributes:
+      label: Wersja Home Assistanta
+      placeholder: 2026.7.1
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Urządzenie i przeglądarka/aplikacja
+      placeholder: iPhone 13, aplikacja Home Assistant
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Opis problemu
+      description: Napisz, co się dzieje i po jakim czasie.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Kroki odtworzenia
+      placeholder: |
+        1. Otwórz panel Radio
+        2. Uruchom stację
+        3. Opisz, kiedy pojawia się problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logi
+      description: Usuń tokeny, podpisane adresy i prywatne dane przed wklejeniem.
+      render: text
