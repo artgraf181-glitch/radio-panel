@@ -1,0 +1,15 @@
+{
+  "title": "Radio Panel",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dodaj Radio Panel",
+        "description": "Dodaj panel Radio do paska bocznego Home Assistanta.",
+        "data": {}
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Radio Panel jest już skonfigurowany."
+    }
+  }
+}

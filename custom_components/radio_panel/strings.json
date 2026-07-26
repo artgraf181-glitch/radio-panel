@@ -1,0 +1,15 @@
+{
+  "title": "Radio Panel",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Radio Panel",
+        "description": "Add Radio Panel to the Home Assistant sidebar.",
+        "data": {}
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Radio Panel is already configured."
+    }
+  }
+}

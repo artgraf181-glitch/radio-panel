@@ -1,0 +1,24 @@
+{
+  "domain": "radio_panel",
+  "name": "Radio Panel",
+  "codeowners": [
+    "@YOUR_GITHUB_USERNAME"
+  ],
+  "config_flow": true,
+  "single_config_entry": true,
+  "dependencies": [
+    "frontend",
+    "http",
+    "websocket_api",
+    "panel_custom",
+    "ffmpeg"
+  ],
+  "after_dependencies": [
+    "radio_browser"
+  ],
+  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME#readme",
+  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "version": "1.7.13"
+}
