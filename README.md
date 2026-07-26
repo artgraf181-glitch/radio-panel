@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="custom_components/radio_panel/brand/logo.png" width="160" alt="Logo Radio Panel">
+  <img src="https://raw.githubusercontent.com/artgraf181-glitch/radio-panel/main/custom_components/radio_panel/brand/logo.png" width="160" alt="Logo Radio Panel">
 </p>
 
 # Radio Panel for Home Assistant
