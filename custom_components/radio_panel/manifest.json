@@ -1,11 +1,13 @@
 {
   "domain": "radio_panel",
   "name": "Radio Panel",
+  "after_dependencies": [
+    "radio_browser"
+  ],
   "codeowners": [
-    "@YOUR_GITHUB_USERNAME"
+    "@artgraf181-glitch"
   ],
   "config_flow": true,
-  "single_config_entry": true,
   "dependencies": [
     "frontend",
     "http",
@@ -13,12 +15,10 @@
     "panel_custom",
     "ffmpeg"
   ],
-  "after_dependencies": [
-    "radio_browser"
-  ],
-  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME#readme",
-  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/issues",
+  "documentation": "https://github.com/artgraf181-glitch/radio-panel#readme",
   "integration_type": "service",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/artgraf181-glitch/radio-panel/issues",
+  "single_config_entry": true,
   "version": "1.7.13"
 }
